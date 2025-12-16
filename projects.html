@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jitaipv | Projects</title>
+
+  <link rel="icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Header（复用首页同样的导航） -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="./index.html">
+      <img src="./assets/logo.svg" alt="JT PV" class="brand-logo">
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="./index.html">Home</a>
+      <a href="./projects.html" class="is-active">Projects</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+
+      <div class="lang-switch">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <span id="langLabel">EN</span>
+  </button>
+
+  <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language">
+    <button role="option" data-lang="en">English</button>
+    <button role="option" data-lang="it">Italiano</button>
+  </div>
+</div>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+
+</header>
+
+  <main>
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+
+  <div class="container page-hero-inner">
+    <h1 class="page-title">Projects</h1>
+    <p class="page-subtitle">Selected PV engineering and delivery cases.</p>
+  </div>
+</section>
+
+    <section class="section">
+  <div class="container">
+    <div class="grid-2">
+      <article class="card project-card">
+        <h3>China · Distributed Rooftop PV</h3>
+
+        <p>
+          <strong>Status:</strong> Delivered & commissioned<br>
+          <strong>Scale:</strong> ~1.5–2.0 MWp (anonymized)
+        </p>
+
+        <p>
+          Engineering design and on-site delivery of a distributed rooftop PV system,
+          including layout, string configuration, and documentation handover.
+        </p>
+
+        <a class="text-link" href="./projects/china-rooftop-01.html">
+          View project details →
+        </a>
+      </article>
+
+      <article class="card project-card">
+        <h3>Italy · Rooftop PV Feasibility & Pilot</h3>
+
+        <p>
+          <strong>Status:</strong> Feasibility & pilot preparation<br>
+          <strong>Target scale:</strong> ~100–500 kWp
+        </p>
+
+        <p>
+          Early-stage feasibility analysis and pilot preparation for rooftop PV projects
+          in Italy, focused on collaboration with local partners.
+        </p>
+
+        <a class="text-link" href="./projects/italy-pilot-01.html">
+          View project details →
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="china">
+      <div class="container">
+        <h2 class="section-title">China · Delivery snapshots</h2>
+        <div class="card">
+          <ul class="list">
+            <li>Rooftop PV engineering: layout, stringing, BOM, as-built docs</li>
+            <li>On-site execution coordination & safety workflow</li>
+            <li>Quality control: cabling, mounting, commissioning checklist</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="italy">
+      <div class="container">
+        <h2 class="section-title">Italy · Collaboration snapshots</h2>
+        <div class="card">
+          <ul class="list">
+            <li>Market research & partner matching</li>
+            <li>Feasibility: roof survey inputs, yield assumptions, BOM draft</li>
+            <li>Project-based delivery with local installers</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Jitaipv</small>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jitaipv | Chi siamo</title>
+
+  <link rel="icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./index.html">
+        <img src="../assets/logo.svg" alt="JT PV" class="brand-logo">
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./projects.html">Progetti</a>
+        <a href="./about.html" class="is-active">Chi siamo</a>
+        <a href="./index.html#contact">Contatti</a>
+
+        <div class="lang-switch">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <span id="langLabel">IT</span>
+  </button>
+
+  <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language">
+    <button role="option" data-lang="en">English</button>
+    <button role="option" data-lang="it">Italiano</button>
+  </div>
+</div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true"></div>
+
+  <div class="container page-hero-inner">
+    <h1 class="page-title">Chi siamo</h1>
+    <p class="page-subtitle">
+      Consegna fotovoltaica guidata dall’ingegneria, con focus su esecuzione, controllo qualità e documentazione chiara.
+    </p>
+  </div>
+</section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div class="card">
+            <h3>Cosa facciamo</h3>
+            <p>
+              Ci occupiamo di ingegneria fotovoltaica e consegna operativa sul campo. Il nostro lavoro include layout di sistema,
+              configurazione delle stringhe, logica di posa cavi, pianificazione materiali e documentazione pronta per la messa in servizio.
+            </p>
+            <p>
+              Affrontiamo i progetti con l’esecuzione in mente: ogni disegno, lista e ipotesi è pensata per essere realmente costruibile in cantiere.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Cosa consegniamo</h3>
+            <p>
+              Non vendiamo concetti. Consegniamo output ingegneristici strutturati, utilizzabili direttamente da squadre di installazione e project manager.
+            </p>
+            <p>
+              Include disegni, distinte base (BOM), checklist e documentazione as-built allineata alle condizioni reali del sito.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Come lavoriamo</h2>
+        <div class="card">
+          <ul class="list">
+            <li>
+              <strong>Definizione dello scope:</strong>
+              chiarire confini del sistema, vincoli e responsabilità prima della progettazione.
+            </li>
+            <li>
+              <strong>Logica ingegneristica:</strong>
+              layout → stringhe → abbinamento inverter → logica posa cavi → BOM.
+            </li>
+            <li>
+              <strong>Allineamento con l’esecuzione:</strong>
+              design verificato rispetto al flusso di installazione e ai requisiti di sicurezza.
+            </li>
+            <li>
+              <strong>Pronti alla consegna:</strong>
+              output preparati per messa in servizio e handover, non solo per approvazione.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Qualità e documentazione</h2>
+        <div class="card">
+          <ul class="list">
+            <li>
+              <strong>Mentalità di controllo qualità:</strong>
+              attenzione ai dettagli ripetibili di installazione e prevenzione degli errori.
+            </li>
+            <li>
+              <strong>Chiarezza documentale:</strong>
+              disegni e liste strutturati per comprensione rapida in cantiere.
+            </li>
+            <li>
+              <strong>Disciplina as-built:</strong>
+              aggiornamenti che riflettono ciò che è realmente installato, non solo pianificato.
+            </li>
+            <li>
+              <strong>Tracciabilità:</strong>
+              decisioni e ipotesi documentate per revisione futura.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Perché conta</h2>
+        <div class="card">
+          <p>
+            Nei progetti FV, scope poco chiaro e documentazione debole causano spesso ritardi, rilavorazioni e dispute.
+            Un approccio guidato dall’ingegneria riduce questi rischi rendendo le decisioni esplicite e costruibili.
+          </p>
+          <p style="margin-top:10px;">
+            Il nostro obiettivo è supportare i partner con output ingegneristici chiari ed eseguibili — per installazioni più fluide
+            e consegne più prevedibili.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Contatti</h2>
+        <div class="card">
+          <p style="margin:0;color:var(--muted);">
+            Per collaborazioni, contattaci tramite la sezione Contatti nella homepage.
+          </p>
+          <p style="margin-top:10px;">
+            <a class="text-link" href="./index.html#contact">Vai ai Contatti →</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Jitaipv</small>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

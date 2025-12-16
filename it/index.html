@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jitaipv</title>
+
+  <!-- Favicons (in root folder) -->
+  <link rel="icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./index.html">
+        <img src="../assets/logo.svg" alt="JT PV" class="brand-logo">
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html" class="is-active">Home</a>
+        <a href="./projects.html">Progetti</a>
+        <a href="./about.html">Chi siamo</a>
+        <a href="./contact.html">Contatti</a>
+
+        <div class="lang-switch">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <span id="langLabel">IT</span>
+  </button>
+
+  <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language">
+    <button role="option" data-lang="en">English</button>
+    <button role="option" data-lang="it">Italiano</button>
+  </div>
+</div>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-slide is-active" style="background-image:url('../assets/hero-1.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('../assets/hero-2.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('../assets/hero-3.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('../assets/hero-4.jpg')"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <h1 class="hero-title">Ingegneria fotovoltaica</h1>
+        <p class="hero-subtitle">
+          Esperienza reale di installazione in Cina,<br/>
+          collaborazione su base progetto in Italia.
+        </p>
+      </div>
+    </section>
+
+    <!-- Value props -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.services">Cosa facciamo</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3 data-i18n="card1.t">Progettazione & Ingegneria</h3>
+            <p data-i18n="card1.p">Progetto di sistema, layout delle stringhe, BOM e documentazione.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="card2.t">Esecuzione EPC</h3>
+            <p data-i18n="card2.p">Esperienza in cantiere e workflow costruttivo pratico.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="card3.t">Collaborazione in Italia</h3>
+            <p data-i18n="card3.p">Team “ponte” per partner locali e progetti pilota in Italia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.projects">Progetti</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Cina · Fotovoltaico distribuito su tetto</h3>
+            <p>Consegne reali, siti reali, vincoli reali.</p>
+          </article>
+          <article class="card">
+            <h3>Italia · Ricerca di mercato & Pilot</h3>
+            <p>Ricerca partner, fattibilità e collaborazione su base progetto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.about">Chi siamo</h2>
+        <p class="lead" data-i18n="about.p">
+          Siamo un ponte tra l’esperienza di consegna ingegneristica in Cina e nuove collaborazioni in Italia.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.contact">Contatti</h2>
+        <div class="card">
+          <p><strong>Email:</strong> dihanmilano@gmail.com</p>
+          <p><strong>WhatsApp:</strong> +39 3425751557</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> JT PV</small>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

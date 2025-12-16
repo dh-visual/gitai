@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jitaipv | Progetti</title>
+
+  <!-- Favicons (root) -->
+  <link rel="icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="./index.html">
+      <img src="../assets/logo.svg" alt="JT PV" class="brand-logo">
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="./index.html">Home</a>
+      <a href="./projects.html" class="is-active">Progetti</a>
+      <a href="./about.html">Chi siamo</a>
+      <a href="./contact.html">Contatti</a>
+
+      <div class="lang-switch">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <span id="langLabel">IT</span>
+  </button>
+
+  <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language">
+    <button role="option" data-lang="en">English</button>
+    <button role="option" data-lang="it">Italiano</button>
+  </div>
+</div>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+
+</header>
+
+  <main>
+    <!-- Hero -->
+    <section class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true"></div>
+
+  <div class="container page-hero-inner">
+    <h1 class="page-title">Progetti</h1>
+    <p class="page-subtitle">
+      Selezione di casi di ingegneria fotovoltaica e consegna operativa.
+    </p>
+  </div>
+</section>
+
+    <!-- Project cards -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+
+          <article class="card project-card">
+            <h3>Cina · Fotovoltaico distribuito su tetto</h3>
+
+            <p>
+              <strong>Stato:</strong> Consegnato e messo in servizio<br>
+              <strong>Scala:</strong> ~1,5–2,0 MWp (anonimizzato)
+            </p>
+
+            <p>
+              Progettazione ingegneristica e consegna in sito di un impianto FV su tetto,
+              inclusi layout, configurazione delle stringhe e documentazione finale.
+            </p>
+
+            <a class="text-link" href="./projects/china-rooftop-01.html">
+              Vedi i dettagli del progetto →
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <h3>Italia · Fattibilità FV su tetto & progetto pilota</h3>
+
+            <p>
+              <strong>Stato:</strong> Studio di fattibilità e preparazione pilota<br>
+              <strong>Scala target:</strong> ~100–500 kWp
+            </p>
+
+            <p>
+              Analisi preliminare di fattibilità e preparazione di progetti pilota FV in Italia,
+              con focus sulla collaborazione con partner locali.
+            </p>
+
+            <a class="text-link" href="./projects/italy-pilot-01.html">
+              Vedi i dettagli del progetto →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- China snapshots -->
+    <section class="section" id="china">
+      <div class="container">
+        <h2 class="section-title">Cina · Snapshot di consegna</h2>
+        <div class="card">
+          <ul class="list">
+            <li>Ingegneria FV su tetto: layout, stringhe, BOM, documentazione as-built</li>
+            <li>Coordinamento in sito e workflow di sicurezza</li>
+            <li>Controllo qualità: cablaggi, strutture, checklist di messa in servizio</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Italy snapshots -->
+    <section class="section" id="italy">
+      <div class="container">
+        <h2 class="section-title">Italia · Snapshot di collaborazione</h2>
+        <div class="card">
+          <ul class="list">
+            <li>Ricerca di mercato e matching con partner locali</li>
+            <li>Fattibilità: input da rilievi, ipotesi di produzione, bozza BOM</li>
+            <li>Consegna su base progetto con installatori locali</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Jitaipv</small>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

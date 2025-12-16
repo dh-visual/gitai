@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jitaipv</title>
+<link rel="icon" href="./favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <img src="./assets/logo.svg" alt="JT PV" class="brand-logo">
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="./index.html" class="is-active">Home</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+
+      <div class="lang-switch">
+  <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+    <span id="langLabel">EN</span>
+  </button>
+
+  <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language">
+    <button role="option" data-lang="en">English</button>
+    <button role="option" data-lang="it">Italiano</button>
+  </div>
+</div>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+
+</header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+      <div class="hero-slide is-active" style="background-image:url('./assets/hero-1.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('./assets/hero-2.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('./assets/hero-3.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('./assets/hero-4.jpg')"></div>
+    </div>
+
+
+      <div class="container hero-inner">
+        <h1 class="hero-title">PV engineering</h1>
+        <p class="hero-subtitle">
+          Real-world installation experience from China,<br/>
+          project-based collaboration in Italy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Value props -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.services">What we do</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3 data-i18n="card1.t">Design & Engineering</h3>
+            <p data-i18n="card1.p">System design, string layout, BOM, and documentation.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="card2.t">EPC Execution</h3>
+            <p data-i18n="card2.p">On-site experience and practical construction workflow.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="card3.t">Italy Collaboration</h3>
+            <p data-i18n="card3.p">Bridge team for local partners and project pilots in Italy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.projects">Projects</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>China · Distributed Rooftop PV</h3>
+            <p>Real delivery, real sites, real constraints.</p>
+          </article>
+          <article class="card">
+            <h3>Italy · Market Research & Pilot</h3>
+            <p>Partner search, feasibility, and project-based collaboration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.about">About</h2>
+        <p class="lead" data-i18n="about.p">
+          We’re a bridge between proven engineering delivery in China and new collaborations in Italy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="sec.contact">Contact</h2>
+        <div class="card">
+          <p><strong>Email:</strong> dihanmilano@gmail.com</p>
+          <p><strong>WhatsApp:</strong> +39 3425751557</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> JT PV</small>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
